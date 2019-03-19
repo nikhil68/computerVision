@@ -1,0 +1,7 @@
+from google.colab import drive
+drive.mount('/content/drive')
+
+file_location = "/content/drive/My Drive/planesnet.zip"
+!unzip "/content/drive/My Drive/planesnet.zip"
+
+!cp planesnet.json "/content/drive/My Drive/"
